@@ -1,0 +1,188 @@
+.section-eight {
+    padding: 75px 0 93px;
+
+    &__title {
+        margin-bottom: 79px;
+    }
+}
+
+.section-eight__blocks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-eight__block {
+    position: relative;
+    background-color: #FAFAFA;
+    width: 50%;
+    height: 375px;
+    border: 1px solid #EDEDED;
+    padding: 50px;
+
+    &--1 {
+        border-top-left-radius: 10px;
+    }
+    &--2 {
+        border-top-right-radius: 10px;
+    }
+    &--3 {
+        border-bottom-left-radius: 10px;
+    }
+    &--4 {
+        border-bottom-right-radius: 10px;
+    }
+}
+
+.section-eight__block-desc {
+    display: flex;
+    align-items: center;
+    margin-bottom: 27px;
+}
+
+.section-eight__foto{
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 50%;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    margin-right: 25px;
+}
+
+.section-eight__name {
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+
+.section-eight__lication {
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.section-eight__block-text {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    margin-bottom: 25px;
+}
+
+.section-eight__block-button{
+    border: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 254px;
+    height: 50px;
+    background-color: #4A76A8;
+    cursor: pointer;
+
+    font-family: dinpro;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+}
+
+.section-eight__btntext{
+
+}
+
+.section-eight__vk{
+    width: 19.44px;
+    height: 11px;
+    margin-right: 13px;
+    margin-top: -4px;
+}
+
+.section-eight__button{
+    display: none;
+}
+
+@media screen and (max-width: 1200px){
+    .section-eight{
+        padding: 41px 0 50px;
+        .main{
+            width: 100%;
+        }
+
+        &__block{
+            padding: 37.53px 23.22px 0;
+            height: auto;
+            padding-bottom: 41px;
+
+            &--1{
+                border-radius: 0px;
+            }
+
+            &--3{
+                border-radius: 0px;
+            }
+
+            &--4{
+                display: none;
+            }
+            width: 100%;
+        }
+
+        &__title{
+            margin-bottom: 33px;
+        }
+
+        &__foto{
+            width: 78.19px;
+            height: 78.19px;
+            margin-right: 19.66px;
+        }
+
+        &__name{
+            font-size: 16px;
+            line-height: 20px;
+        }
+
+        &__location{
+            font-size: 16px;
+            line-height: 23px;
+        }
+
+        &__block-desc{
+            margin-bottom: 40.11px;
+        }
+
+        &__block-text{
+            font-size: 16px;
+            line-height: 23px;
+            margin-bottom: 19px;
+        }
+
+        &__block-button{
+            width: 189.59px;
+            height: 39.09px;
+        }
+
+        &__vk{
+            width: 15.2px;
+            height: 8.6px;
+        }
+
+        &__btntext{
+            font-size: 12px;
+        }
+
+        &__button{
+            margin-top: 37.8px;
+            text-align: center;
+            display: block;
+        }
+    }
+}
