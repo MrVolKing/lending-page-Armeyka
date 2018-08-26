@@ -5,8 +5,8 @@
   "license": "ISC",
   "description": "gulp builder",
   "repository": {
-    "type": "git",
-    // "url": "https://github.com/jichanghir/gulp-builder.git"
+    "type": "git"
+    
   },
   "scripts": {},
   "devDependencies": {
